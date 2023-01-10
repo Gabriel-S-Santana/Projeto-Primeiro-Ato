@@ -1,0 +1,254 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100;1,200&display=swap');
+
+
+* {
+    font-family: 'Arvo', serif;
+}
+
+
+.correcao {
+    height: 60px;
+    background: transparent;
+    max-width: 100vw;
+}
+
+nav {
+    background-color: #fff;
+    padding-top: 60%;
+    box-sizing: border-box;
+    max-width: 100vw;
+    font-size: 13pt;
+    font-weight: 500;
+}
+
+.logo-space {
+    max-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navlogo {
+    height: 100%;
+    width: 10vw;
+}
+
+.botao {
+    background: #fff;
+    color: rgba(0, 0, 0, .9);
+
+}
+
+.botao:hover {
+    background: rgba(0, 0, 0, .9);
+    color: #fff;
+
+}
+
+.nav1,
+.big-container,
+.big-container2 {
+    margin-bottom: 3rem;
+}
+
+
+main {
+    display: flex;
+    width: 100%;
+    height: 110vh;
+    margin: 10vh auto;
+    align-items: center;
+}
+
+.textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.textfield > input, .textfield>textarea {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #fff;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label {
+
+    margin-bottom: 10px;
+}
+
+.textfield > input::placeholder {
+    color: gray;
+    
+}
+
+.mensagem {
+    max-width: 25vw;
+    max-height: 30vh;
+    min-height: 8vh;
+    border-radius: 2px 4px 4px 2px;
+    margin-bottom: 1em;
+    outline: none;
+    border: none;
+    display: flex;
+}
+
+.button {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px 0;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #fff;
+    background: #7b2018;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #7b2018;
+}
+
+.cadastro-right {
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro-card {
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 35px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px;
+    height: 78vh;
+}
+
+.cadastro-card > h2 {
+    color: #000;
+    margin-bottom: 0;
+    margin-top: 10%;
+}
+
+.cadastro-left {
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+label {
+    color: #000;
+}
+
+
+.cadastro-left > p, .cadastro-left > h1 {
+    color: #000;
+    text-align: center;
+    width: 80%;
+    margin: 10% auto;
+}
+
+.cadastro-left>p {
+
+    font-size: 18pt;
+}
+
+.cadastro-left > img {
+    width: 300px;
+}
+
+.cadastro-btn {
+    text-decoration: none;
+    color: #f0ffffde;
+}
+
+.cadastro:hover {
+    color: #40a777;
+}
+
+.forms-header>p:first-of-type {
+    font-size: 16pt;
+}
+
+.list-unstyled>li,
+.footer-col-title {
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 950px) {
+    .cadastro-card, .login-card {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    .nav1 {
+        padding: 0;
+    }
+    
+     .logo-space {
+        max-height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .navlogo {
+        height: 100%;
+        width: 20vw;
+    }
+    
+    main {
+        flex-direction: column;
+        margin-bottom: 50vh;
+        /*align-items: center;*/
+    }
+
+    .cadastro-card, .login-card {
+        height:90%
+    }
+
+    img {
+        width: 40vw;
+        
+    }
+
+    .cadastro-left > h2, .login-left > h2 {
+
+        display: none;
+    }
+
+    .cadastro-left, .login-left {
+        width: 100%;
+        height: auto;
+    }
+
+    .cadastro-right, .login-right {
+        width: 100%;
+        height: auto;
+    }
+
+    .mensagem {
+        min-width: 100%;
+    }
+
+}

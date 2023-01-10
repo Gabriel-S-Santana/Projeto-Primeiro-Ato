@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categorias</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/pecas.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+</head>
+
+<body>
+
+    <div class="correcao"></div>
+    <nav class="navbar navbar-expand-lg navbar-light d-block  w-100 nav1 fixed-top">
+        <div class="container-fluid padding-correction">
+            <div class="logo-space">
+                <a class="navbar-brand" href="index.html">
+                    <img src="imgs/logo e logomarca.png" alt="" width="30" height="24"
+                        class="d-inline-block align-text-top navlogo">
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Pecas.html">PEÇAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="oq-fazemos.html">O QUE FAZEMOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="sobre-nos.html">SOBRE</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="ingresso">
+            <div class="popup-wrapper" style="display: none;">
+                <div class="popup">
+                    <div class="popup-close">X</div>
+                    <div class="popup-content">
+                        <h2>OOPS!</h2>
+                        <p>Ainda estamos ensaiando essa peça!
+                        </p>
+                        <p>Selecione somente aquelas com data definida.</p>
+                        <img src="imgs/404 error with people holding the numbers-pana.svg" alt="">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <h1 class="titulo">
+        Escolha uma categoria
+    </h1>
+    <section class="bloco">
+        <section class="linha">
+            <div class="Escrita">
+                <a href="#terror" class="link">
+                    <div class="card card-9 img-terror">
+
+                    </div>
+
+                </a>
+                <p>Terror</p>
+
+            </div>
+
+            <div class="Escrita">
+                <a href="#acao" class="link">
+                    <div class="card card-9 img-acao">
+
+                    </div>
+                </a>
+                <p>Aventura</p>
+
+            </div>
+
+            <div class="Escrita">
+                <a href="#romance" class="link">
+                    <div class="card card-9 img-romance">
+
+                    </div>
+                </a>
+                <p>Romance</p>
+
+            </div>
+        </section>
+
+        <section class="linha">
+            <div class="Escrita">
+                <a href="#Teatro-de-sombras" class="link">
+                    <div class="card card-9 img-Teatro-de-sombras">
+
+                    </div>
+                </a>
+                <p>Teatro de sombras</p>
+            </div>
+
+            <div class="Escrita">
+                <a href="#musical" class="link">
+                    <div class="card card-9 img-musical">
+
+                    </div>
+                </a>
+                <p>Musical</p>
+            </div>
+
+            <div class="Escrita">
+                <a href="#infantil" class="link">
+                    <div class="card card-9 img-infantil">
+
+                    </div>
+                </a>
+                <p>Infantil</p>
+
+            </div>
+        </section>
+    </section>
+
+    <div class="categoria-header" id="terror" data-aos="fade-right">
+        <h3>TERROR</h3>
+    </div>
+    <section class="pecas-cards" data-aos="fade-right">
+
+        <!--card-1-->
+        <div class="card card-1">
+            <div class="card-header1">
+
+            </div>
+
+            <div class="card-body">
+                <h3 class="card-local">Em Breve <h2 class="card-titulo">Outro Lado</h2>
+                    <p class="card-texto">
+                        Em uma cidadezinha,&nbsp; do interior um chamado foi ouvido do outro lado de uma janela. O
+                        que será que o
+                        espera lá?
+                    </p>
+            </div>
+
+            <div class="card-footer">
+                <a href="#" id="janela" onclick="screenPopUp()">Ver mais</a>
+            </div>
+        </div>
+
+
+        
+        <div class="card card-1">
+            <div class="card-header2">
+
+            </div>
+
+            <div class="card-body">
+                <h3 class="card-local">Em Breve</h3>
+                <h2 class="card-titulo">impossível</h2>
+                <p class="card-texto">
+                    O impossível não possui esse nome em vão. O que você faria se seu maior medo se tornasse real?
+                    Mesmo
+                    os mais difíceis de se acreditar...
+                </p>
+            </div>
+
+            <div class="card-footer">
+                <a href="#" id="janela" onclick="screenPopUp()">Ver mais</a>
+            </div>
+        </div>
+
+        <!--card-1-->
+        <div class="card card-2">
+            <div class="card-header3">
+
+            </div>
+
+            <div class="card-body">
+                <h3 class="card-local">Em Breve</h3>
+                <h2 class="card-titulo">O luar</h2>
+                <p class="card-texto">
+                    O luar era pra ser algo bonito e reconfortante,&nbsp; mas e se te disserem que a lua parece
+                    viva? Ela
+                    parece... assustadoramente reconfortante.
+                </p>
+            </div>
+
+            <div class="card-footer">
+                <a href="#" id="janela" onclick="screenPopUp()">Ver mais</a>
+            </div>
+        </div>
+        <!--card-2-->
+
+        <!--card-3-->
+        <div class="card card-3">
+            <div class="card-header4">
+
+            </div>
+
+            <div class="card-body">
+                <h3 class="card-local">12/06/2022</h3>
+                <h2 class="card-titulo">Túnel infinito</h2>
+                <p class="card-texto">
+                    Andando ou correndo,&nbsp; não importa a maneira,&nbsp; nesse túnel,&nbsp; quem entra nunca
+                    sai... NUNCA.
+                </p>
+            </div>
+
+            <div class="card-footer">
+                <a href="tunel-infinito.html">Ver mais</a>
+            </div>
+        </div>
+    </section>
+    <div class="categoria-header" id="acao" data-aos="fade-right">
+        <h3>AVENTURA</h3>
+    </div>
+    <section class="pecas-cards" data-aos="fade-right">
+
+        <div class="card card-1">
+            <div class="card-header5">
+
+            </div>
+
+            <div class="card-body">
+                <h3 class="card-local">Em Breve</h3>
+                <h2 class="card-titulo">O nascer do sol</h2>
+                <p class="card-texto">
+                    Um mundo onde o sol é o limite. Nestas vastas terras desconhecidas o que se pode esperar
+                    encontrar?
+                </p>
+            </div>
+
+            <div class="card-footer">
+                <a href="#" id="janela" onclick="screenPopUp()">Ver mais</a>
+            </div>
+        </div>
+
+        <!--card-1-->
+        <div class="card card-1">
+            <div class="card-header6">
+
+            </div>
+
+            <div class="card-body">
+                <h3 class="card-local">13/12/2023</h3>
+                <h2 class="card-titulo">Outro mundo</h2>
+                <p class="card-texto">
+                    Um mundo onde a lua esta colada no céu. Fragmentos desta lua caíram na superfície deste planeta.
+                    Restou muito do planeta,&nbsp; até demais...
+                </p>
+            </div>
+
+            <div class="card-footer">
+                <a href="outro-mundo.html">Ver mais</a>
+            </div>
+        </div>
+
+        <!--card-1-->
+        <div class="card card-2">
+            <div class="card-header7">
+
+            </div>
+
+            <div class="card-body">
+                <h3 class="card-local">Em Breve</h3>
+                <h2 class="card-titulo">Escalada</h2>
+                <p class="card-texto">
+                    Pode até não ser uma das maiores escaladas,&nbsp; mas com certeza a mais perigosa. No
+                    topo,&nbsp; uma surpresa
+                    aguarda quem se aventura por lá...
+                </p>
+            </div>
+
+            <div class="card-footer">
+                <a href="#" id="janela" onclick="screenPopUp()">Ver mais</a>
+            </div>
+        </div>
+        <!--card-2-->
+
+        <!--card-3-->
+        <div class="card card-3">
+            <div class="card-header8">
+
+            </div>
+
+            <div class="card-body">
+                <h3 class="card-local">Em Breve</h3>
+                <h2 class="card-titulo">Inverno impossível</h2>
+                <p class="card-texto">
+                    A neve dominou o mundo inteiro. Um apocalipse de neve que causou uma destruição sem igual. Como
+                    será
+                    que podemos escapar disso?
+                </p>
+            </div>
+
+            <div class="card-footer">
+            <a href="#" id="janela" onclick="screenPopUp()">Ver mais</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="categoria-header" id="romance" data-aos="fade-right">
+        <h3>ROMANCE</h3>
+    </div>
+
+
+    <section class="pecas-cards" data-aos="fade-right">
+
+        <div class="card card-1">
+            <div class="card-header9">
+
+            </div>
+
+            <div class="card-body">
+                <h3 class="card-local">Em Breve</h3>
+                <h2 class="card-titulo">Como o vento</h2>
+                <p class="card-texto">
+                    O amor é como um balão,&nbsp; se bem cuidado,&nbsp; dura muito,&nbsp; se mal,&nbsp; cuidado ele
+                    estoura com pouco tempo.
+                    Assim
+                    se dá a relação de nossos protagonistas.
+                </p>
+            </div>
+
+            <div class="card-footer">
+                <a href="#" id="janela" onclick="screenPopUp()">Ver mais</a>
+            </div>
+        </div>
+
+        <div class="card card-1">
+            <div class="card-header10">
+
+            </div>
+
+            <div class="card-body">
+                <h3 class="card-local">Em Breve</h3>
+                <h2 class="card-titulo">Luar sentimental</h2>
+                <p class="card-texto">
+                    A lua está bonita hoje,&nbsp; não? Uma frase com vários sentidos e significados,&nbsp; no caso
+                    da nossa
+                    protagonista,&nbsp; o mais lindo e puro amor.
+                </p>
+            </div>
+
+            <div class="card-footer">
+                <a href="#" onclick="screenPopUp()">Ver mais</a>
+            </div>
+        </div>
+
+        <div class="card card-2">
+            <div class="card-header11">
+
+            </div>
+
+            <div class="card-body">
+                <h3 class="card-local">Em Breve</h3>
+                <h2 class="card-titulo">Velas</h2>
+                <p class="card-texto">
+                    O amor pode ser duradouro como uma chama de uma fogueira ou fraco como o de uma vela,&nbsp; uma
+                    relação de
+                    amor e ódio de nossos protagonistas.
+                </p>
+            </div>
+
+            <div class="card-footer">
+                <a href="#" onclick="screenPopUp()">Ver mais</a>
+            </div>
+        </div>
+
+        <div class="card card-3">
+            <div class="card-header12">
+
+            </div>
+
+            <div class="card-body">
+                <h3 class="card-local">17/12/2022</h3>
+                <h2 class="card-titulo">Céu</h2>
+                <p class="card-texto">
+                    Um amor jovem e gentil,&nbsp; limpo como o céu,&nbsp; possui seus momentos de trovoadas e chuva
+                    forte só para
+                    depois voltar ser o lindo céu azul.
+                </p>
+            </div>
+
+            <div class="card-footer">
+                <a href="ceu.html">Ver mais</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="categoria-header" data-aos="fade-right" id="Teatro-de-sombras">
+        <h3>TEATRO DE SOMBRAS</h3>
+    </div>
+
+
+    <section class="pecas-cards" data-aos="fade-right">
+
+        <div class="card card-1">
+            <div class="card-header13">
+
+            </div>
+
+            <div class="card-body">
+                <h3 class="card-local">Em Breve</h3>
+                <h2 class="card-titulo">Perspectivas</h2>
+                <p class="card-texto">
+                    Uma peça de sombras que brinca com a perspectiva vista de cada pessoa,&nbsp; brincando com
+                    posicionamento
+                    dos elementos e visão delas.
+                </p>
+            </div>
+
+            <div class="card-footer">
+                <a href="#" onclick="screenPopUp()">Ver mais</a>
+            </div>
+        </div>
+
+        <div class="card card-1">
+            <div class="card-header14">
+
+            </div>
+
+            <div class="card-body">
+                <h3 class="card-local">29/01/2023</h3>
+                <h2 class="card-titulo">Natureza</h2>
+                <p class="card-texto">
+                    Este teatro vem com a ideia de juntar natureza e suas formas para brincar com suas sombras.
+                </p>
+            </div>
+
+            <div class="card-footer">
+                <a href="natureza.html">Ver mais</a>
+            </div>
+        </div>
+
+        <div class="card card-2">
+            <div class="card-header15">
+
+            </div>
+
+            <div class="card-body">
+                <h3 class="card-local">Em Breve</h3>
+                <h2 class="card-titulo">Praia</h2>
+                <p class="card-texto">
+                    Um clima de calor de uma bela praia,&nbsp; tambem é ótimo para se mexer com as sombras e suas
+                    formas.
+                </p>
+            </div>
+
+            <div class="card-footer">
+                <a href="#" onclick="screenPopUp()">Ver mais</a>
+            </div>
+        </div>
+
+        <div class="card card-3">
+            <div class="card-header16">
+
+            </div>
+
+            <div class="card-body">
+                <h3 class="card-local">Em Breve</h3>
+                <h2 class="card-titulo">Monstros</h2>
+                <p class="card-texto">
+                    A partir de sombras faremos uma apresentação monstruosa e com um pouquinho de terror.
+                </p>
+            </div>
+
+            <div class="card-footer">
+                <a href="#" onclick="screenPopUp()">Ver mais</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="categoria-header" data-aos="fade-right" id="musical">
+        <h3>MUSICAL</h3>
+    </div>
+
+
+    <section class="pecas-cards" data-aos="fade-right">
+
+        <div class="card card-1">
+            <div class="card-header17">
+
+            </div>
+
+            <div class="card-body">
+                <h3 class="card-local">Em Breve</h3>
+                <h2 class="card-titulo">Música clássica</h2>
+                <p class="card-texto">
+                    Um musical que envolve música clássica e interativa com o público.
+                </p>
+            </div>
+
+            <div class="card-footer">
+                <a href="#" onclick="screenPopUp()">Ver mais</a>
+            </div>
+        </div>
+
+        <!--card-1-->
+        <div class="card card-1">
+            <div class="card-header18">
+
+            </div>
+
+            <div class="card-body">
+                <h3 class="card-local">Em Breve</h3>
+                <h2 class="card-titulo">Mix</h2>
+                <p class="card-texto">
+                    Uma junção de diversos gêneros musicais em uma só apresentação!
+                </p>
+            </div>
+
+            <div class="card-footer">
+                <a href="#" onclick="screenPopUp()">Ver mais</a>
+            </div>
+        </div>
+
+        <!--card-1-->
+        <div class="card card-2">
+            <div class="card-header19">
+
+            </div>
+
+            <div class="card-body">
+                <h3 class="card-local">Em Breve</h3>
+                <h2 class="card-titulo">Luzes</h2>
+                <p class="card-texto">
+                    Uma apresentação de músicas eletrônicas. Serão utilizadas luzes neon no escuro para dar um
+                    efeito
+                    futurístico.
+                </p>
+            </div>
+
+            <div class="card-footer">
+                <a href="#" onclick="screenPopUp()">Ver mais</a>
+            </div>
+        </div>
+        <!--card-2-->
+
+        <!--card-3-->
+        <div class="card card-3">
+            <div class="card-header20">
+
+            </div>
+
+            <div class="card-body">
+                <h3 class="card-local">Em Breve</h3>
+                <h2 class="card-titulo">Calmaria</h2>
+                <p class="card-texto">
+                    A música pode com toda certeza trazer diversas emoções ao ouvinte e o objetivo dessa
+                    apresentação é
+                    trazer paz de espírito para as pessoas.
+                </p>
+            </div>
+
+            <div class="card-footer">
+                <a href="#" onclick="screenPopUp()">Ver mais</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="categoria-header" data-aos="fade-right" id="infantil">
+        <h3>INFANTIL</h3>
+    </div>
+
+
+    <section class="pecas-cards" data-aos="fade-right">
+
+        <div class="card card-1">
+            <div class="card-header21">
+
+            </div>
+
+            <div class="card-body">
+                <h3 class="card-local">Em Breve</h3>
+                <h2 class="card-titulo">Mímica</h2>
+                <p class="card-texto">
+                    Um enorme castelo com dois mÍmicos muito animados! Que tipo de aventura divertida os espera lá
+                    dentro?
+                </p>
+            </div>
+
+            <div class="card-footer">
+                <a href="#" onclick="screenPopUp()">Ver mais</a>
+            </div>
+        </div>
+
+        <!--card-1-->
+        <div class="card card-1">
+            <div class="card-header22">
+
+            </div>
+
+            <div class="card-body">
+                <h3 class="card-local">Em Breve</h3>
+                <h2 class="card-titulo">Príncipes</h2>
+                <p class="card-texto">
+                    Um príncipe e uma princesa enfrentam uma maldição terrível que pode comprometer o reino inteiro.
+                    O
+                    que será que eles podem fazer para acabar com isso?
+                </p>
+            </div>
+
+            <div class="card-footer">
+                <a href="#" onclick="screenPopUp()">Ver mais</a>
+            </div>
+        </div>
+
+        <!--card-1-->
+        <div class="card card-2">
+            <div class="card-header23">
+
+            </div>
+
+            <div class="card-body">
+                <h3 class="card-local">Em Breve</h3>
+                <h2 class="card-titulo">Arco íris</h2>
+                <p class="card-texto">
+                    O que sera aque tem no final do maior arco íris ja visto na historia?
+                </p>
+            </div>
+
+            <div class="card-footer">
+                <a href="#" onclick="screenPopUp()">Ver mais</a>
+            </div>
+        </div>
+        <!--card-2-->
+
+        <!--card-3-->
+        <div class="card card-3">
+            <div class="card-header24">
+
+            </div>
+
+            <div class="card-body">
+                <h3 class="card-local">Em Breve</h3>
+                <h2 class="card-titulo">Fantoches</h2>
+                <p class="card-texto">
+                    Uma apresentação de fantoches interativa com o público. Nossos aventureiros vão explorar as
+                    colinas
+                    em busca de um livro de encantamento.
+                </p>
+            </div>
+
+            <div class="card-footer">
+                <a href="#">Ver mais</a>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-center text-white">
+        <div class="container p-4">
+            <section class="mb-4">
+
+
+                <a class="btn btn-outline-light btn-floating m-1" href="mailto:tcc.grupo.4.ios@gmail.com"
+                    role="button"><i class=" fa fa-google"></i></a>
+
+                <a class="btn btn-outline-light btn-floating m-1"
+                    href="https://instagram.com/projeto_primeiroato?igshid=ZmRlMzRkMDU=" role="button" target="_blank"><i
+                        class="fa fa-instagram"></i></a>
+            </section>
+
+            <section class="">
+                <form action="">
+                    <div class="row d-flex justify-content-center">
+                        <div class="forms-header">
+                            <p class="pt-0">
+                                <strong>Quer receber informações exclusivas?</strong>
+                            </p>
+                            <p class="">
+                                Insira seu email aqui para receber nossa NEWSLETTER!
+                            </p>
+                        </div>
+
+                        <div class="col-md-5 col-12 ">
+                            <div class="form-outline form-white mb-4">
+                                <input type="email" id="form5Example21" class="form-control"
+                                    placeholder="exemplo@email.com" />
+                            </div>
+                        </div>
+
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-outline-light mb-4">
+                                ENVIAR
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+
+
+            <section class="">
+                <div class="row">
+
+                    <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase footer-col-title">Páginas</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="index.html" class="text-white">Home</a>
+                            </li>
+                            <li>
+                                <a href="Pecas.html" class="text-white">Peças</a>
+                            </li>
+                            <li>
+                                <a href="sobre-nos.html" class="text-white">Sobre Nós</a>
+                            </li>
+                            <li>
+                                <a href="oq-fazemos.html" class="text-white">O que Fazemos</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase footer-col-title">Parceiros</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="https://projetojovememcena.wixsite.com/jovememcena" class="text-white"
+                                    target="_blank">Jovem em
+                                    cena</a>
+                            </li>
+                            <li>
+                                <a href="https://ios.org.br" class="text-white" target="_blank">Instituto da
+                                    Oportunidade Social</a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/dt_educacional/?igshid=YmMyMTA2M2Y%3D"
+                                    class="text-white" target="_blank">DT-EDUCACIONAL</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
+
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-white" href="#">1ºATO</a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+    </script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

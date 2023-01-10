@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Roboto+Mono:ital,wght@0,100;0,200;1,100;1,200&display=swap');
+
+* {
+    font-family: 'Arvo', serif;
+}
+
+
+.correcao {
+    height: 60px;
+    background: transparent;
+    max-width: 100vw;
+}
+
+nav {
+    background-color: #fff;
+    padding-top: 60%;
+    box-sizing: border-box;
+    max-width: 100vw;
+}
+
+.logo-space {
+    max-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navlogo {
+    height: 100%;
+    width: 10vw;
+}
+
+.botao {
+    background: #fff;
+    color: rgba(0, 0, 0, .9);
+
+}
+
+.botao:hover {
+    background: rgba(0, 0, 0, .9);
+    color: #fff;
+
+}
+
+.nav1 {
+    margin-bottom: 3rem;
+}
+
+.background-poster {
+    height: 80vh;
+    background-size: cover;
+    background-color: black;
+    max-width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: left;
+    flex-direction: column;
+}
+
+.bkgd-poster-groups {
+    background-image: url(../imgs/AVENTURA/15925941645eed0ef4a4e28_1592594164_3x2_md.jpg);
+    width: 90%;
+    margin: auto;
+    color: #fff;
+    background-position: center;
+}
+
+.background-poster>h1,
+.background-poster>a {
+    margin-left: 3rem;
+    font-size: 40pt;
+}
+
+.sinopse {
+    width: 80%;
+    text-align: center;
+    margin: 3% auto;
+
+}
+
+.background-poster>a {
+    margin-bottom: 4rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20pt;
+}
+
+.ingresso-local {
+    max-width: 100vw;
+    height: 80vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ingresso {
+    width: 30%;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 4);
+}
+
+
+#janela {
+    display: block;
+    margin: 5% 0;
+    border: 0;
+    cursor: pointer;
+    padding: 7px 12px;
+    border-radius: 15px;
+    background-color: #7b2018;
+    color: #fff;
+}
+
+
+.link-page {
+    background-color: #7b2018;
+    color: #fff;
+}
+
+.local {
+    padding: 2.5%;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 4);
+}
+
+.popup-wrapper {
+    display: none;
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.popup {
+    font-family: arial;
+    text-align: center;
+    width: 100%;
+    max-width: 70%;
+    margin: 10% auto;
+    padding: 30px;
+    background: white;
+    position: relative;
+    border-radius: 15px;
+}
+
+.popup-content>p {
+    font-size: 20pt;
+}
+
+#codigo {
+    font-size: 40pt;
+}
+
+#aviso {
+    font-size: 14pt;
+    color: gray;
+}
+
+.popup-close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+
+
+.forms-header>p:first-of-type {
+    font-size: 16pt;
+}
+
+.list-unstyled>li,
+.footer-col-title {
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 700px) {
+
+    .nav1 {
+        padding: 0;
+    }
+    
+     .logo-space {
+        max-height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .navlogo {
+        height: 100%;
+        width: 20vw;
+    }
+
+    .ingresso-local {
+        flex-direction: column;
+        align-items: center;
+        margin: 50% 0;
+    }
+
+    .ingresso {
+        width: 80%;
+        margin-bottom: 20%;
+    }
+
+    .popup {
+        height: 90%;
+    }
+}
